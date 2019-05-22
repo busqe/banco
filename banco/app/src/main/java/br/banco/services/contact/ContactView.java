@@ -1,5 +1,5 @@
  /*
-
+ 
  @FAZER: usar Stragy Patern
  FLUXO:
 

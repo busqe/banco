@@ -1,5 +1,5 @@
-package br.banco.services.contact;
-
+ package br.banco.services.contact;
+ 
 import android.widget.TextView;
 
 public interface IContactImpl {

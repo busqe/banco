@@ -1,5 +1,5 @@
 package br.banco.services.contact;
-
+ 
 // area, titulo, mensagem, botao texto, botao estilo
 
 public class ContactModel  implements IContactImpl.ModelImpl {
