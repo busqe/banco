@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="br.banco.services"
-    android:installLocation="preferExternal">
+    android:installLocation="preferExternal"
+    >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -26,7 +27,9 @@
 
         <uses-library android:name="android.test.runner" />
 
+
         <!-- START -->
+
 
         <activity
             android:label="@string/activity_label_splash"
@@ -41,7 +44,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+            <!--  -->
         </activity>
 
         <!-- FUND detail -->
@@ -93,13 +96,17 @@
         <activity
             android:label="@string/activity_label_splash"
             android:name="br.banco.services.Test">
+
+
         </activity>
 
     </application>
 
+
     <!--
-         <instrumentation android:name="br.banco.services.xxxx"
+      <instrumentation android:name="br.banco.services.xxxx"
           android:targetPackage="br.banco.services"
           android:label="Teste app br.banco.services"/>
     -->
+
 </manifest>

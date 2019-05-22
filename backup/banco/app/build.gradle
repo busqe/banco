@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     //  buildToolsVersion rootProject.buildToolsVersion
     defaultConfig {
-        applicationId "br.banco.services"
+        applicationId "com.bank.services"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
