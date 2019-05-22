@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="br.banco.services"
-    android:installLocation="preferExternal"
-    >
+    android:installLocation="preferExternal">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
@@ -15,7 +14,6 @@
     <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -24,12 +22,9 @@
         android:theme="@style/AppTheme"
         android:exported="true"
         tools:ignore="GoogleAppIndexingWarning">
-
         <uses-library android:name="android.test.runner" />
 
-
         <!-- START -->
-
 
         <activity
             android:label="@string/activity_label_splash"
@@ -66,7 +61,6 @@
             android:label="@string/activity_label_fund_detail"
             android:name="br.banco.services.fund.detail.DetailView"  >
 
-
         </activity>
 
         <!-- CONTACT -->
@@ -102,16 +96,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-
         </activity>
-
     </application>
-
 
     <!--
       <instrumentation android:name="br.banco.services.xxxx"
           android:targetPackage="br.banco.services"
           android:label="Teste app br.banco.services"/>
     -->
-
 </manifest>
